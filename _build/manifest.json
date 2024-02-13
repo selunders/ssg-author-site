@@ -3,14 +3,8 @@
     "file": "assets/client-d8b7a4d7.css",
     "src": "\u0000virtual:#vinxi/handler/client.css"
   },
-  "_index-569b7147.js": {
-    "file": "assets/index-569b7147.js",
-    "imports": [
-      "_web-202f17cc.js"
-    ]
-  },
-  "_web-202f17cc.js": {
-    "file": "assets/web-202f17cc.js"
+  "_index-90abcf14.js": {
+    "file": "assets/index-90abcf14.js"
   },
   "node_modules/shikiji/dist/onig.wasm": {
     "file": "assets/onig-fd885c2d.wasm",
@@ -24,10 +18,9 @@
     "css": [
       "assets/(HomePage)-e52ed65a.css"
     ],
-    "file": "assets/(HomePage)-e757d4c5.js",
+    "file": "assets/(HomePage)-25d3e074.js",
     "imports": [
-      "_web-202f17cc.js",
-      "_index-569b7147.js"
+      "_index-90abcf14.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -41,10 +34,9 @@
     "css": [
       "assets/(AboutPage)-f4b9594d.css"
     ],
-    "file": "assets/(AboutPage)-7e7cea55.js",
+    "file": "assets/(AboutPage)-a8b0f418.js",
     "imports": [
-      "_web-202f17cc.js",
-      "_index-569b7147.js"
+      "_index-90abcf14.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -58,9 +50,9 @@
     "css": [
       "assets/(BooksPage)-a0f3a449.css"
     ],
-    "file": "assets/(BooksPage)-8c2d4436.js",
+    "file": "assets/(BooksPage)-9eadc105.js",
     "imports": [
-      "_web-202f17cc.js"
+      "_index-90abcf14.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -74,9 +66,9 @@
     "css": [
       "assets/(ContactPage)-640a0c53.css"
     ],
-    "file": "assets/(ContactPage)-10016c90.js",
+    "file": "assets/(ContactPage)-afb13223.js",
     "imports": [
-      "_web-202f17cc.js"
+      "_index-90abcf14.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -92,10 +84,9 @@
       "src/routes/books/(BooksPage).jsx?pick=default&pick=$css",
       "src/routes/contact/(ContactPage).jsx?pick=default&pick=$css"
     ],
-    "file": "assets/client-cf94a229.js",
+    "file": "assets/client-de42bac0.js",
     "imports": [
-      "_web-202f17cc.js",
-      "_index-569b7147.js"
+      "_index-90abcf14.js"
     ],
     "isEntry": true,
     "src": "virtual:#vinxi/handler/client"
