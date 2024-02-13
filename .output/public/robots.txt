@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://authorjamiesheehan.com/sitemap.txt
