@@ -1,4 +1,4 @@
-import { Title } from '@solidjs/meta'
+import { Meta, Title } from '@solidjs/meta'
 import * as styles from './AboutPage.module.css'
 
 export default function Index() {

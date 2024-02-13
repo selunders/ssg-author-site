@@ -8,7 +8,7 @@ export default defineConfig({
       preset: "static",
       minify: true,
       prerender: {
-        routes: ["/", "/about", "/books", "/contact"],
+        crawlLinks: true,
       },
     },
   },

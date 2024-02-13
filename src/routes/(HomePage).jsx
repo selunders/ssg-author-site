@@ -1,7 +1,7 @@
 import { For, createEffect, onCleanup } from "solid-js";
 import * as styles from "./HomePage.module.css";
 
-import { Title } from "@solidjs/meta";
+import { Meta, Title } from "@solidjs/meta";
 import { FaBrandsGoodreadsG, FaBrandsInstagram, FaBrandsPinterest, FaBrandsSpotify } from 'solid-icons/fa';
 import { IoMailOutline } from 'solid-icons/io';
 

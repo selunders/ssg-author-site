@@ -1,3 +1,4 @@
+import { Meta, Title } from "@solidjs/meta";
 import { onMount } from "solid-js";
 import * as styles from "./ContactPage.module.css";
 
