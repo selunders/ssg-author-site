@@ -10,50 +10,32 @@ export default function Index() {
                     <section class="intro" id="learn_more">
                         <br />
                         <p>
-                            Subscribe to my archeology-themed newsletter,{" "}
-                            <a
+                            {`Subscribe to my archeology-themed newsletter, ${<a
                                 href="https://substack.com/profile/132807708-jamie-sheehan"
                                 target="_blank"
                             >
                                 The Ink-Dipped Trowel
-                            </a>
-                            .
+                            </a>}.`}
                         </p>
                         <p>
-                            Follow me on{" "}
-                            <a href="https://www.pinterest.com/authorjamiesheehan/">
-                                Pinterest
-                            </a>
-                            ,{" "}
-                            <a
-                                href="https://www.goodreads.com/user/show/44081734-jamie-danae"
-                                target="_blank"
-                            >
-                                Goodreads
-                            </a>
-                            , or{" "}
-                            <a
-                                href="https://www.instagram.com/authorjamiesheehan"
-                                target="_blank"
-                            >
-                                Instagram
-                            </a>
-                            !{" "}
+                            {`Follow me on ${<a href="https://www.pinterest.com/authorjamiesheehan/">Pinterest</a>
+                                }, ${<a href="https://www.goodreads.com/user/show/44081734-jamie-danae">Goodreads</a>
+                                }, or ${<a href="https://www.instagram.com/authorjamiesheehan">Instagram</a>}!`}
                         </p>
                         <br />
                         <IgEmbed />
                         <br />
                         <p>
-                            Please contact{" "}
+                            Please contact
                             <a href="https://goldpearlpress.com/" target="_blank">
-                                Gold Pearl Press
-                            </a>{" "}
+                                {" Gold Pearl Press "}
+                            </a>
                             for events, media, ARC requests, and other inquiries.
                         </p>
                         <p>
-                            If you email me directly at{" "}
+                            If you email me directly at
                             <a href="mailto:authorjamiesheehan@gmail.com">
-                                authorjamiesheehan@gmail.com
+                                {" authorjamiesheehan@gmail.com "}
                             </a>
                             , I will do my best to respond to you!
                         </p>
@@ -77,11 +59,23 @@ const footerQuote = {
 
 const IgEmbed = () => {
 
+    const fetchIG = () => {
+        console.log("Fetching")
+        if (window?.instgrm?.Embeds?.process) {
+            console.log("Success")
+            window.instgrm.Embeds.process()
+        } else {
+            console.log("Trying again...")
+            setTimeout(() => fetchIG(), 500)
+        }
+    }
+
     const connectIGScript = () => {
         const ig_script = document.createElement("script");
         ig_script.src = "//www.instagram.com/embed.js";
         const ig_root = document.getElementsByClassName("ig_embed")[0];
         ig_root.appendChild(ig_script);
+        fetchIG()
     };
 
     onMount(connectIGScript)
@@ -95,7 +89,7 @@ const IgEmbed = () => {
                 style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"
             >
                 <div style="padding:16px;">
-                    {" "}
+
                     <a
                         href="https://www.instagram.com/authorjamiesheehan/?utm_source=ig_embed&amp;utm_campaign=loading"
                         style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
@@ -169,7 +163,7 @@ const IgEmbed = () => {
                             target="_blank"
                         >
                             Jamie Sheehan
-                        </a>{" "}
+                        </a>
                         (@
                         <a
                             href="https://www.instagram.com/authorjamiesheehan/?utm_source=ig_embed&amp;utm_campaign=loading"
