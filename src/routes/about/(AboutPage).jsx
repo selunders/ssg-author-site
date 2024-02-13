@@ -1,8 +1,12 @@
+import { Title } from '@solidjs/meta'
 import * as styles from './AboutPage.module.css'
 
-export default function AboutPage() {
+export default function Index() {
   return (
     <>
+      <>
+        <Title>Jamie Sheehan | About</Title>
+      </>
       <div class={styles.mainContent}>
         <picture>
           <source media="(min-width:980px)" srcset="/img/about_min.webp" />
