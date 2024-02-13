@@ -1,0 +1,103 @@
+{
+  "\u0000virtual:#vinxi/handler/client.css": {
+    "file": "assets/client-d8b7a4d7.css",
+    "src": "\u0000virtual:#vinxi/handler/client.css"
+  },
+  "_index-569b7147.js": {
+    "file": "assets/index-569b7147.js",
+    "imports": [
+      "_web-202f17cc.js"
+    ]
+  },
+  "_web-202f17cc.js": {
+    "file": "assets/web-202f17cc.js"
+  },
+  "node_modules/shikiji/dist/onig.wasm": {
+    "file": "assets/onig-fd885c2d.wasm",
+    "src": "node_modules/shikiji/dist/onig.wasm"
+  },
+  "src/routes/(HomePage).css": {
+    "file": "assets/(HomePage)-e52ed65a.css",
+    "src": "src/routes/(HomePage).css"
+  },
+  "src/routes/(HomePage).jsx?pick=default&pick=$css": {
+    "css": [
+      "assets/(HomePage)-e52ed65a.css"
+    ],
+    "file": "assets/(HomePage)-e757d4c5.js",
+    "imports": [
+      "_web-202f17cc.js",
+      "_index-569b7147.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/(HomePage).jsx?pick=default&pick=$css"
+  },
+  "src/routes/about/(AboutPage).css": {
+    "file": "assets/(AboutPage)-f4b9594d.css",
+    "src": "src/routes/about/(AboutPage).css"
+  },
+  "src/routes/about/(AboutPage).jsx?pick=default&pick=$css": {
+    "css": [
+      "assets/(AboutPage)-f4b9594d.css"
+    ],
+    "file": "assets/(AboutPage)-7e7cea55.js",
+    "imports": [
+      "_web-202f17cc.js",
+      "_index-569b7147.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/about/(AboutPage).jsx?pick=default&pick=$css"
+  },
+  "src/routes/books/(BooksPage).css": {
+    "file": "assets/(BooksPage)-a0f3a449.css",
+    "src": "src/routes/books/(BooksPage).css"
+  },
+  "src/routes/books/(BooksPage).jsx?pick=default&pick=$css": {
+    "css": [
+      "assets/(BooksPage)-a0f3a449.css"
+    ],
+    "file": "assets/(BooksPage)-8c2d4436.js",
+    "imports": [
+      "_web-202f17cc.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/books/(BooksPage).jsx?pick=default&pick=$css"
+  },
+  "src/routes/contact/(ContactPage).css": {
+    "file": "assets/(ContactPage)-640a0c53.css",
+    "src": "src/routes/contact/(ContactPage).css"
+  },
+  "src/routes/contact/(ContactPage).jsx?pick=default&pick=$css": {
+    "css": [
+      "assets/(ContactPage)-640a0c53.css"
+    ],
+    "file": "assets/(ContactPage)-10016c90.js",
+    "imports": [
+      "_web-202f17cc.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "src/routes/contact/(ContactPage).jsx?pick=default&pick=$css"
+  },
+  "virtual:#vinxi/handler/client": {
+    "css": [
+      "assets/client-d8b7a4d7.css"
+    ],
+    "dynamicImports": [
+      "src/routes/(HomePage).jsx?pick=default&pick=$css",
+      "src/routes/about/(AboutPage).jsx?pick=default&pick=$css",
+      "src/routes/books/(BooksPage).jsx?pick=default&pick=$css",
+      "src/routes/contact/(ContactPage).jsx?pick=default&pick=$css"
+    ],
+    "file": "assets/client-cf94a229.js",
+    "imports": [
+      "_web-202f17cc.js",
+      "_index-569b7147.js"
+    ],
+    "isEntry": true,
+    "src": "virtual:#vinxi/handler/client"
+  }
+}
