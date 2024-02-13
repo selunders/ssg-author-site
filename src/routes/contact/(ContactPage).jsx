@@ -4,6 +4,10 @@ import * as styles from "./ContactPage.module.css";
 export default function Index() {
     return (
         <>
+            <>
+                <Title>Jamie Sheehan | Contact</Title>
+                <Meta name="description">Contact Jamie Sheehan</Meta>
+            </>
             <div class={styles.mainContent}>
                 <img src="/img/contact_min.webp" class="shadow" alt="Journals, a pen, and a cup of coffee on a wooden surface" />
                 <div>

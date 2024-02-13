@@ -37,6 +37,10 @@ export default function Index() {
 
   return (
     <>
+      <>
+        <Title>Author Jamie Sheehan</Title>
+        <Meta name="description">Author Jamie Sheehan's Website</Meta>
+      </>
       <div class={`${styles.homepage} ${styles.mainContent}`} >
         <img
           class="shadow"

@@ -6,6 +6,7 @@ export default function Index() {
     <>
       <>
         <Title>Jamie Sheehan | About</Title>
+        <Meta name="description">About Jamie Sheehan</Meta>
       </>
       <div class={styles.mainContent}>
         <picture>

@@ -12,6 +12,10 @@ function days_to_release() {
 export default function Index() {
   return (
     <>
+      <>
+        <Title>Jamie Sheehan | Books</Title>
+        <Meta name="description">Books by Jamie Sheehan</Meta>
+      </>
       <div class={styles.mainContent}>
         <img src="/img/hls_ss.jpg" class="shadow" alt="Hearts Like Silver book cover" />
         <div>
